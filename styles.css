@@ -4,16 +4,23 @@
     font-family: 'Segoe UI';
 }
 
+body {
+    background: linear-gradient(126deg, rgba(255, 181, 232, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 #contenedor {
     display: flex;
     justify-content: center;
 }
 
 #contenedor-main {
+    background-color: aliceblue;
     border: solid;
     border-radius: 10%;
     padding: 5%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 #contenedor-tabla {
